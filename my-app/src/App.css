@@ -1,0 +1,44 @@
+
+:root {
+    --font: initial;
+    --fontFamily: initial;
+    --fontSize: 16px;
+    --UnderL: none;
+    --colorCode:black;
+  }
+
+.options{
+    display:flex;
+    margin: 10px auto
+}
+
+.options button{
+    margin-right: 3px;
+}
+
+.options input:nth-child(4) {
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.options input:nth-child(5) {
+    margin-right: 15px;
+}
+.editor{
+    height:300px;
+    width: 700px;
+    padding:10px;
+    border: 1px solid lightskyblue;
+    font-weight: var(--font);
+    font-family: var(--fontFamily);
+    font-size: var(--fontSize);
+    text-decoration-line: var(--UnderL);
+    color:var(--colorCode);
+}
+
+.submit{
+    position: absolute;
+    top:60%;
+    left:20%;
+    
+}
