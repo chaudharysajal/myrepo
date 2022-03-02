@@ -1,5 +1,6 @@
 import './App.css';
 import RichText from './RichText'
+//Another text to edit the file
 function App() {
 
 
